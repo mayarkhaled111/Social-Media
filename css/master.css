@@ -1,0 +1,353 @@
+body{
+    font-family: 'Karma', serif;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+nav{
+    background-color: #7d97a5;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+nav a{
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+a span{
+    margin: 0 5px;
+}
+a:hover {
+    color: black;
+    background-color: #fff;
+}
+.special{
+    color: white !important;
+    background-color: #57707d !important;
+}
+aside{
+    width: 29%;
+    height: 100%;
+}
+aside .profile{
+    margin: 30px 20px;
+    box-shadow: 0px 0px 11px 2px #9f9c9c;
+    padding: 5px;
+}
+aside .profile h3{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+aside .profile .image{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+aside .profile .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+aside hr{
+    border-top: 1px solid #c9c4c4;
+}
+aside .profile p i{
+    margin: 2px 20px;
+}
+aside .my-info{
+    margin: 30px 20px;
+    box-shadow: 0px 0px 11px 2px #9f9c9c;
+}
+aside .my-info p{
+    margin: 0;
+    padding: 10px;
+    background-color: #7d97a5;
+    color: #fcfcfc !important;
+    text-transform: capitalize;
+}
+aside .my-info p i{
+    margin: 2px 20px;
+}
+aside .my-info #photo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+aside .my-info #photo div{
+    width:30%;
+    padding: 5px;
+}
+aside .my-info #photo div img{
+    width: 100%;
+}
+aside .my-info #ph11,
+aside .my-info #ph22,
+aside .my-info #photo{
+    padding: 10px;
+    display:none;
+}
+aside .my-info p:hover {
+    background-color: #fff;
+    color: black !important;
+    cursor:pointer;
+}
+
+aside .interests{
+    margin: 30px 20px;
+    box-shadow: 0px 0px 11px 2px #9f9c9c;
+    padding: 5px;
+}
+aside .interests h3{
+    font-weight: 300;
+    margin: 10px;
+}
+aside .interests .fl{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+aside .interests .fl div{
+    width: auto;
+    margin: 3px;
+}
+aside .interests .fl .i1{
+    background-color: #303e45;
+    color: white;
+    padding: 2px;
+}
+aside .interests .fl .i2{
+    background-color: #3a4b53 ;
+    color: white;
+    padding: 2px;
+}
+aside .interests .fl .i3{
+    background-color: #435761 ;
+    color: white;
+    padding: 2px;
+}
+aside .interests .fl .i4{
+    background-color: #57707d ;
+    color: white;
+    padding: 2px;
+}
+aside .interests .fl .i5{
+    background-color: #4d636f ;
+    color: white;
+    padding: 2px;
+}
+aside .interests .fl .i6{
+    background-color: #607d8b ;
+    color: white;
+    padding: 2px;
+}
+aside .interests .fl .i7{
+    background-color: #7d97a5 ;
+    color: white;
+    padding: 2px;
+}
+aside .interests .fl .i8{
+    background-color: #a9bfcd;
+    padding: 2px;
+}
+aside .interests .fl .i9{
+    background-color: #b3c6d1;
+    padding: 2px;
+}
+aside .interests .fl .i10{
+    background-color: rgb(202, 225, 238) ;
+    padding: 2px;
+}
+aside .interests .fl .i11{
+    background-color: #ffffff ;
+    padding: 2px;
+}
+aside .hey{
+    border: .5px solid rgb(171, 171, 171);
+    margin: 30px 20px;
+    background-color: #dfe5e8;
+    padding: 5px 10px;
+    text-transform: capitalize;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    position: relative;
+}
+aside .hey span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #a9bfcd;
+    padding: 5px 10px;
+}
+aside .hey span:hover {
+    background-color: #c2bdbd;
+}
+section{
+    width: 50%;
+}
+section .SM{
+    margin: 30px 20px;
+    box-shadow: 0px 0px 11px 2px #9f9c9c;
+    padding: 5px 20px;
+}
+section .SM h4{
+    font-weight: 400;
+    color:rgb(98, 97, 97);
+}
+section .SM .in1{
+    padding: 10px;
+    width: 95%;
+}
+section .SM .in2{
+    padding: 10px 20px;
+    border: none;
+    margin: 10px 0;
+    background-color: #57707d;
+    color: white;
+}
+section .SM .in2:hover {
+    color: black;
+    background-color: #e4e1e1;
+    cursor: pointer;
+}
+section .jod{
+    margin: 30px 20px;
+    box-shadow: 0px 0px 11px 2px #9f9c9c;
+    padding: 15px 20px;
+}
+section .jod .name{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+section .jod .name .ph{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+section .jod .name .ph img{
+    width: 100%;
+    border-radius: 50%;
+}
+section .jod .name h3{
+    margin-left: 10px;
+    font-weight: 400;
+}
+section .jod p{
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: .5px;
+    margin: 15px 0;
+}
+section .jod .photo{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+section .jod .photo img{
+    width: 48%;
+}
+section .jod input{
+    border: none;
+    background-color: #506874;
+    color: white;
+    padding: 10px 15px;
+}
+section .jod input:hover {
+    color: black;
+    background-color: #e4e1e1;
+    cursor: pointer;
+}
+.jod .ph3 img{
+    width: 100%;
+}
+section .jod h4{
+    font-weight: 500;
+}
+
+
+
+.sec2{
+    width: 20%;
+    height: 100vb;
+}
+.sec2 h4{
+    font-weight: 400;
+}
+.sec2 .CE ,
+.sec2 .FR,
+.sec2 .ADS{
+    margin: 30px 20px;
+    box-shadow: 0px 0px 11px 2px #9f9c9c;
+    padding: 15px 20px;
+    text-align: center;
+}
+.sec2 img{
+    width: 100%;
+}
+.sec2 .CE button{
+    width: 100%;
+    border: none;
+    height: 30px;
+    background-color:#b3c6d1;
+}
+.sec2 .CE button:hover{
+    background-color: #b1adad;
+}
+.sec2 .FR .img{
+    width: 50px;
+    margin: auto;
+}
+.sec2 .FR button{
+    border: none;
+    width: 45%;
+    height: 30px;
+    background-color: rgb(221 70 85);
+}
+.sec2 .FR button i{
+    color: white;
+}
+
+.sec2 .FR button:hover{
+    background-color: #b1adad;
+    color: #bdb6b6;
+}
+.sec2 h3{
+    height: 60px;
+    line-height: 50px;
+    font-weight: 500;
+    font-size: larger;
+}
+footer{
+    height: 60px;
+    background-color: #435761;
+    color: white;
+}
+footer h4{
+    font-weight: 400;
+    font-size: 30px;
+    padding: 15px;
+}
+.links{
+    padding: 15px;
+    color: white;
+    background-color: #303e45;
+}
+.links a{
+    color: white;
+    background-color: transparent;
+}
